@@ -41,3 +41,49 @@ span{
 .red{
     color: red;
 }
+@media (max-width:850px) {
+    .coin{
+        font-size:6px;
+        height:70px;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3px 0;
+        border-radius: 20px;
+        border-bottom: 1px solid aqua;
+        border-top: 1px solid aqua;
+        background-color: rgba(0, 255, 255, 0.05);
+    }
+    span{
+        padding: 0.4rem 1rem;
+    }
+    .coin img{
+        width: 30px;
+        height: 30px;
+    }
+    .coin span:nth-child(1){
+        width: 20px;
+    }
+    .coin span:nth-child(2){
+        width: 50px;
+    }
+    .coin span:nth-child(3){
+        width: 50px;
+    }
+    .coin span:nth-child(4){
+        width: 50px;
+    }
+    .coin span:nth-child(5){
+        width: 50px;
+    }
+    .coin span:nth-child(6){
+        width: 50px;
+    }
+    .green{
+        color: green;
+    }
+    .red{
+        color: red;
+    }
+}
